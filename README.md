@@ -1,0 +1,2 @@
+# neocities
+everything site
