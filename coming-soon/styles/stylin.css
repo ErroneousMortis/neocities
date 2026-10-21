@@ -16,6 +16,10 @@ body#landing {
 	text-align: center;
 }
 
+.emphasis {
+	font-style: italic;
+}
+
 .red {
 	color: red;
 }
