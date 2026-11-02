@@ -12,6 +12,23 @@ body#landing {
 	background-color: #22bffd;
 }
 
+#landing p {
+	padding: 10px;
+}
+
+#webma {
+	width: 88px;
+}
+
+#landing-cw {
+	max-width: 800px;
+	margin: auto;
+}
+
+#footerline {
+	padding: 10px;
+}
+
 .centered {
 	text-align: center;
 }
@@ -26,6 +43,19 @@ body#landing {
 
 .green {
 	color: green;
+}
+
+.smalltext {
+	font-size: 0.75em;
+}
+
+.tinytext {
+	font-size: 0.5em;
+}
+
+footer {
+	max-width: 800px;
+	margin: auto;
 }
 
 /* Tablet View */
