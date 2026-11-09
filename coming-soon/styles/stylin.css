@@ -2,18 +2,47 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font: inherit;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+img,
+picture,
+svg,
+video {
+	display: block;
+	max-width: 100%;
 }
 
 html {
 	
 }
 
+body {
+	min-height: 100vh;
+}
+
 body#landing {
 	background-color: #22bffd;
 }
 
+#landing h2 {
+	font-size: 1.75em;
+	padding:5px;
+}
+
 #landing p {
 	padding: 10px;
+}
+
+#landing-buttons a {
+	display: block;
+	max-width: 88px;
 }
 
 #webma {
@@ -27,6 +56,11 @@ body#landing {
 
 #footerline {
 	padding: 10px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content:center;
 }
 
 .centered {
