@@ -33,25 +33,47 @@ body#landing {
 
 #landing h2 {
 	font-size: 1.75em;
-	padding:5px;
+	padding: 5px;
 }
 
 #landing p {
 	padding: 10px;
 }
 
+#landing-buttons {
+	flex-wrap: wrap;
+	width: 150px;
+	position:absolute;
+	top: 30px;
+	right: -75px;
+}
+
+#landing-buttons img {
+	padding-bottom: 7px;
+	padding-top: 7px;
+}
+
 #landing-buttons a {
-	display: block;
-	max-width: 88px;
+/* 	display: block;
+	max-width: 88px; */
 }
 
 #webma {
-	width: 88px;
+/* 	width: 88px; */
 }
 
 #landing-cw {
 	max-width: 800px;
 	margin: auto;
+	background-color: #6cc9ee;
+	position: relative;
+}
+
+#landing-cw-text {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+	padding-bottom: 60px;
 }
 
 #footerline {
@@ -60,7 +82,7 @@ body#landing {
 
 .flex-container {
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 }
 
 .centered {
