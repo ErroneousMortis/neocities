@@ -3,7 +3,6 @@
 	padding: 0;
 	border: 0;
 	font: inherit;
-	font-family: serif;
 }
 
 *,
@@ -20,8 +19,8 @@ video {
 	max-width: 100%;
 }
 
-html {
-	
+body, footer {
+	font-family: "times new roman", times, serif;
 }
 
 body {
@@ -35,11 +34,6 @@ body#landing {
 #landing h2 {
 	font-size: 2em;
 	padding: 5px;
-}
-
-#landing p {
-	padding: 10px;
-	font-size: 1.1em;
 }
 
 #landing-buttons {
@@ -67,6 +61,11 @@ body#landing {
 	margin-top: 30px;
 	background-color: #6cc9ee;
 	position: relative;
+}
+
+#landing-cw p {
+	padding: 10px;
+	font-size: 1.1em;
 }
 
 #landing-cw-text {
@@ -112,6 +111,9 @@ footer {
 	max-width: 800px;
 	margin: auto;
 	margin-top: 40px;
+}
+
+footer p {
 	font-size: 1.1em;
 }
 
