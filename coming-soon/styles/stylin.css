@@ -31,6 +31,34 @@ body#landing {
 	background-color: #22bffd;
 }
 
+body#sitemap {
+	
+}
+
+#sitemap h1 {
+	font-size: 2.5em;
+	padding: 20px;
+}
+
+#sitemap-links-container {
+	margin-left: 50px;
+}
+
+#sitemap h2 {
+	font-size: 1.70em;
+	padding: 20px;
+}
+
+#sitemap ul {
+	padding: 0px;
+}
+
+#sitemap li {
+	font-size: 1.1em;
+	margin-left: 20px;
+	list-style-type: none;
+}
+
 #landing h2 {
 	font-size: 2.5em;
 	padding: 5px;
