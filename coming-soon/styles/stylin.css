@@ -103,7 +103,19 @@ a#webma {
 	margin-bottom: 20px;
 }
 
-#footerline {
+#landing-foot div.footerline {
+	
+}
+
+#sitemap-foot div.footerline {
+	margin-top: 30px;
+}
+
+#arf {
+	padding-top: 0.5em;
+}
+
+.footerline {
 	padding: 10px;
 }
 
@@ -114,6 +126,10 @@ a#webma {
 
 .centered {
 	text-align: center;
+}
+
+.right-aligned {
+	text-align: right;
 }
 
 .emphasis {
@@ -136,8 +152,11 @@ a#webma {
 	font-size: 0.5em;
 }
 
-footer {
+footer#landing-foot {
 	max-width: 800px;
+}
+
+footer {
 	margin: auto;
 	margin-top: 40px;
 }
